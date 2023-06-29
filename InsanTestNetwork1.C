@@ -1,4 +1,4 @@
-/** Insan Test Network 1 By Insan Technology Company Eng. AbdAllah Islam Bin ElHassan /
+// Insan Test Network 1 By Insan Technology Company Eng. AbdAllah Islam Bin ElHassan /
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -158,7 +158,7 @@ int transfer(currency* c, char* sender, char* receiver, double amount, char* mes
     if (c->zakat < zakatThreshold) {
         double zakatAmount = zakatThreshold - c->zakat;
         c->zakat += zakatAmount;
-        printf("Zakat of %.8f INSAN has been deducted for the right of Allah (SWT) in His wealth\n", zakatAmount);
+        printf("Zakat of %.8f INSAN has been deducted for the right of Allah (Almighty) in His wealth\n", zakatAmount);
     }
 
     return 0;
